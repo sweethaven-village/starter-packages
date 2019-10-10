@@ -1,10 +1,10 @@
 {
-  "name": "@reybard/npm-bacon",
+  "name": "@sweethaven-village/npm-bacon",
   "version": "1.0.3",
   "description": "The most tasty package ever, now for npm.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/infin8x/starter-packages.git"
+    "url": "git://github.com/sweethaven-village/starter-packages.git"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"

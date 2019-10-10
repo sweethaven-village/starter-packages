@@ -2,8 +2,8 @@ name: Publish Docker image
 
 on:
   push:
-    #branches:
-    #- master
+    branches:
+    - master
     paths:
     - 'docker-bacon/*'
     - '.github/workflows/docker-bacon.yml'

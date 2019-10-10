@@ -7,7 +7,7 @@
     <Authors>amullans</Authors>
     <Company>Microsoft</Company>
     <PackageDescription>The original dotnet-flavored Bacon</PackageDescription>
-    <RepositoryUrl>https://github.com/infin8x/starter-packages</RepositoryUrl>
+    <RepositoryUrl>https://github.com/sweethaven-village/starter-packages</RepositoryUrl>
     <PackageReleaseNotes>Bacon, now with CI</PackageReleaseNotes>
   </PropertyGroup>
 

@@ -19,8 +19,8 @@
         </repository>
         <repository>
           <id>github</id>
-          <name>GitHub infin8x Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/infin8x</url>
+          <name>GitHub Apache Maven Packages</name>
+          <url>https://maven.pkg.github.com/sweethaven-village</url>
         </repository>
       </repositories>
     </profile>

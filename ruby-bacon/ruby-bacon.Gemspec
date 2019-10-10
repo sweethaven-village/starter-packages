@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
       "lib/ruby-bacon.rb"
     ]
     s.require_paths = ["lib"]
-    s.metadata = { "github_repo" => "ssh://github.com/infin8x/starter-packages" }
+    s.metadata = { "github_repo" => "ssh://github.com/sweethaven-village/starter-packages" }
   end
