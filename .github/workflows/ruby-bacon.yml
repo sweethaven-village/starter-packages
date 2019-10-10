@@ -12,7 +12,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v1
     - name: Setup Ruby
@@ -26,4 +26,4 @@ jobs:
     - name: Create the gem
       run: gem build ruby-bacon/ruby-bacon.Gemspec
     - name: Publish the package
-      run: gem push ruby-bacon/*.gem --key github --host https://rubygems.pkg.github.com/infin8x --config-file ruby-bacon/credentials
+      run: gem push ruby-bacon/*.gem --key github --host https://rubygems.pkg.github.com/sweethaven-village --config-file ruby-bacon/credentials
