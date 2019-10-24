@@ -21,8 +21,6 @@ jobs:
 
     - name: Docker login
       run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com -u $GITHUB_ACTOR --password-stdin
-      env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
     - name: Publish to GPR
       run: docker push "docker.pkg.github.com/$GITHUB_REPOSITORY/docker-bacon:$GITHUB_SHA"
