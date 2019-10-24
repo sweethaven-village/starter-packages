@@ -1,4 +1,4 @@
-name: Publish ruby-bacon gem
+name: Publish RubyGem
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - master
     paths:
     - 'ruby-bacon/*'
-    - '.github/workflows/ruby-bacon.yml'
+    - '.github/workflows/ruby.yml'
 
 jobs:
   build:

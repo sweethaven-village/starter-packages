@@ -6,7 +6,7 @@ on:
     - master
     paths:
     - 'docker-bacon/*'
-    - '.github/workflows/docker-bacon.yml'
+    - '.github/workflows/docker.yml'
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
       run: docker build -t "docker.pkg.github.com/$GITHUB_REPOSITORY/docker-bacon:$GITHUB_SHA" -f docker-bacon/Dockerfile .
 
     - name: Docker login
-      run: docker login docker.pkg.github.com -u $GITHUB_ACTOR -p $GITHUB_TOKEN
+      run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com -u $GITHUB_ACTOR --password-stdin
       env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

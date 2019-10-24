@@ -1,4 +1,4 @@
-name: Publish bacon NuGet package
+name: Publish NuGet package
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - master
     paths:
     - 'nuget-bacon/*'
-    - '.github/workflows/nuget-bacon.yml'
+    - '.github/workflows/nuget.yml'
 
 jobs:
   build:

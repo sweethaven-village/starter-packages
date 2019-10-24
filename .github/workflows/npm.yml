@@ -1,4 +1,4 @@
-name: Publish npm-bacon npm package
+name: Publish npm package
 
 on:
   push: 
@@ -6,7 +6,7 @@ on:
     - master
     paths:
     - 'npm-bacon/*'
-    - '.github/workflows/npm-bacon.yml'
+    - '.github/workflows/npm.yml'
 
 jobs:
   build:
